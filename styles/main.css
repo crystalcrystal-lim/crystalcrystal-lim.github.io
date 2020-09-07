@@ -1,0 +1,60 @@
+.background-color {
+    background-color: #a10808;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+}
+.title {
+    font-family: 'Rakkas', cursive;
+    font-size: 30pt;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+}
+.header {
+    font-family: 'Rakkas', cursive;
+    font-size: 15pt;
+    text-transform: uppercase;
+    color: black; 
+    list-style-type: none;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    text-align: center;
+}
+.link-font {
+    font-family: 'Rakkas', cursive;
+    font-size: 15pt;
+    text-transform: uppercase;
+    color: black; 
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.image {
+    width: 550px; 
+    grid-column: 1 / 2;
+    position: relative;
+    top: 20px;
+    left: 190px;
+}
+.textbox {
+    grid-column: 2 / 3;
+    margin-right: 50px;
+    width: 220px;
+    height: 724px;
+    border: 5px solid black;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+.btn{
+    display: inline-block;
+    background-color: #a10808;
+    color: black;
+}
+.btn:hover{
+    background-color: black;
+    color: #a10808;
+}
