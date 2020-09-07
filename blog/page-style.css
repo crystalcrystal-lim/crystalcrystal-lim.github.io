@@ -1,0 +1,24 @@
+.page-background-color {
+    background-color: #f5e1ba;
+}
+.title {
+    font-family: 'Rakkas', cursive;
+    font-size: 30pt;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    padding: 30px;
+}
+.content {
+    max-width: 600px;
+    margin: auto;
+}
+p {
+    font-family: helvetica, arial;
+    font: 20pt;
+}
+h3 {
+    font-family: helvetica, arial;
+    font: 25pt;
+    font-weight: bold;
+}
