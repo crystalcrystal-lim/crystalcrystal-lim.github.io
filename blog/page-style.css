@@ -22,3 +22,7 @@ h3 {
     font: 25pt;
     font-weight: bold;
 }
+.font {
+    font-family: helvetica, arial;
+    font: 20pt;
+}
