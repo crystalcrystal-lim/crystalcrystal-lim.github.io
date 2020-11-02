@@ -34,13 +34,11 @@
 }
 .image {
     width: 550px; 
-    grid-column: 1 / 2;
-    position: relative;
+    position: fixed;
     top: 20px;
     left: 190px;
 }
 .textbox {
-    grid-column: 2 / 3;
     margin-right: 50px;
     width: 240px;
     height: 724px;
@@ -51,10 +49,59 @@
 }
 .btn{
     display: inline-block;
-    background-color: #a10808;
     color: black;
 }
 .btn:hover{
     background-color: black;
     color: #a10808;
+}
+
+@media all and ( max-width: 320px) {
+    .background-color {
+        background-color: burlywood;
+    }
+
+    .image {
+        width: 200px;
+        display: flexbox;
+    }
+    body {
+        color: black;
+        display: flex
+    }
+    .textbox {
+        background-color: blueviolet;
+        width: 190px;
+
+     }
+}
+
+
+@media all and ( max-width: 768px )  and (min-device-width: 321px){
+    .background-color {
+        background-color: black;
+    }
+
+    .image {
+        width: 300px;
+        display: flexbox;
+    }
+    body {
+        color: black;
+    }
+    .textbox {
+        background-color: blueviolet;
+        width: 190px;
+
+     }
+}
+
+@media all and ( min-width: 1200px ) {
+       .image {
+        width: 300px;
+        display: flexbox;
+    }
+
+    }
+
 }
